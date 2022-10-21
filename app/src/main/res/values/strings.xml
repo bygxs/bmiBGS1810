@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">bmiBGS1810</string>
+    <string name="textMessage">Know your BMI now</string>
+    <string name="announceResultBtn">Your BMI is:</string>
+    <string name="heightMessage">Enter your height in centimeters</string>
+    <string name="weightMessage">Enter your weight in killo grams</string>
+</resources>
