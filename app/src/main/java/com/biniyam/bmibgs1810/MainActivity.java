@@ -43,20 +43,24 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 setCalculation();
             }
+
         });
     }
 
- public void setCalculation (){
+ private void setCalculation (){
         int h = Integer.parseInt(height.getText().toString()) ;  // int datatype cuts of decimal point
         int w = Integer.parseInt(weight.getText().toString());
-        int heightValue = (h)*(h);
+        float heightValue = (float) h/100;
         int weightValue = (w) ;
 
-      int bmi =weightValue / (heightValue*heightValue);
-     resultText.setText((int) bmi);
+      float bmi =weightValue / (heightValue*heightValue);
+     resultText.setText(String.valueOf(bmi));
 
  }
 
 }
 // TODO Complete this: getInputs from user and save them in a variable calculate to BMI
 //  and then setResultBMI in a TextView them to a result BMI
+// Git keeps complaining nagging with warnings i just want to commit this version and improve upon it
+
+
