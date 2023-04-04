@@ -47,6 +47,8 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+
+
  private void setCalculation (){
         int h = Integer.parseInt(height.getText().toString()) ;  // int datatype cuts of decimal point
         int w = Integer.parseInt(weight.getText().toString());
